@@ -4,7 +4,7 @@ html {
 
   --color-pink: #ff3cd2;
   --color-black: #151515;
-  --color-white: #f3ebeb;
+  --color-white: #fff;
 }
 
 *, *::before, *::after {
@@ -16,4 +16,5 @@ body {
   padding: 0;
   background-color: var(--color-white);
   min-height: 200vh;
+  overflow-x: hidden;
 }
