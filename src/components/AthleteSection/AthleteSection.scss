@@ -28,6 +28,10 @@
         width: 100%;
         flex-wrap: wrap;
 
+        h4 {
+            margin-bottom: 0;
+        }
+
         .rowing, .cycling {
             @media screen and (max-width: 720px){
                 width: 100%;
