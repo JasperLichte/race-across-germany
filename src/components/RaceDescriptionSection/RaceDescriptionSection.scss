@@ -3,7 +3,7 @@
     .main {
         max-width: calc(1080px + 2em);
         margin: 0 auto;
-        padding: 1em;
+        padding: 1em 2em;
 
         display: flex;
     }
@@ -20,11 +20,19 @@
 
     .map {
         max-height: 400px;
+    }
 
-        @media screen and (max-width: 860px) {
-            .map {
-                display: none;
-            }
+    @media screen and (max-width: 860px) {
+        .map {
+            display: none;
+        }
+
+        .main {
+            padding: 1em;
+        }
+
+        p {
+            padding-right: 0;
         }
     }
 }

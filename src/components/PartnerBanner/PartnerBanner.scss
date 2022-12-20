@@ -1,0 +1,39 @@
+.PartnerBanner {
+    margin: 2em 0;
+    background-color: var(--color-black);
+    width: 100vw;
+    min-height: 140px;
+    padding: 0 3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    > * {
+        margin: 2em;
+    }
+
+    img {
+        height: 100px;
+
+        &.dfwi {
+            height: 50px;
+        }
+
+        &.kickstart {
+            height: 55px;
+        }
+
+        &.maxplaner {
+            height: 70px;
+        }
+
+        &.noack {
+            height: 80px;
+        }
+
+        &.velopunkt {
+            height: 80px;
+        }
+    }
+}
