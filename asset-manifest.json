@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/race-across-germany/static/css/main.073c9b0a.css",
-    "main.js": "/race-across-germany/static/js/main.b3c7a5ae.js",
-    "static/js/787.4ec10ad8.chunk.js": "/race-across-germany/static/js/787.4ec10ad8.chunk.js",
+    "main.css": "/race-across-germany/static/css/main.e69fc245.css",
+    "main.js": "/race-across-germany/static/js/main.03da71f3.js",
+    "static/media/Bild2.png": "/race-across-germany/static/media/Bild2.c9466d6797ef3351586f.png",
     "index.html": "/race-across-germany/index.html",
-    "main.073c9b0a.css.map": "/race-across-germany/static/css/main.073c9b0a.css.map",
-    "main.b3c7a5ae.js.map": "/race-across-germany/static/js/main.b3c7a5ae.js.map",
-    "787.4ec10ad8.chunk.js.map": "/race-across-germany/static/js/787.4ec10ad8.chunk.js.map"
+    "main.e69fc245.css.map": "/race-across-germany/static/css/main.e69fc245.css.map",
+    "main.03da71f3.js.map": "/race-across-germany/static/js/main.03da71f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.b3c7a5ae.js"
+    "static/css/main.e69fc245.css",
+    "static/js/main.03da71f3.js"
   ]
 }
