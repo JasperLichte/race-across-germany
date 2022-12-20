@@ -20,7 +20,7 @@ function AthleteSection() {
                             <span>Rad am Ring, Nürburg, 2022</span>
                         </li>
                         <li>
-                            <p>2nd place 12h Race</p>
+                            <p>1st place 12h Race</p>
                             <span>Guderhandviertel, Old country, 2022</span>
                         </li>
                         <li>
