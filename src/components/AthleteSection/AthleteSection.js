@@ -37,11 +37,11 @@ function AthleteSection() {
                     <h4>Rowing</h4>
                     <ul>
                         <li>
-                            <p>2nd place at the Long Distance World Championship</p>
+                            <p>2nd place at the Long Distance World Championships</p>
                             <span>Tour du Lac Léman, Genf, 2021</span>
                         </li>
                         <li>
-                            <p>2nd place at the North German Championship</p>
+                            <p>2nd place at the North German Championships</p>
                             <span>Friedrichstadt, 2020</span>
                         </li>
                         <li>
