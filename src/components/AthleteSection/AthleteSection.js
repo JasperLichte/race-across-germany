@@ -24,7 +24,7 @@ function AthleteSection() {
                             <span>Guderhandviertel, Old country, 2022</span>
                         </li>
                         <li>
-                            <p>2nd Hamburg-Berlin-Time-Trial</p>
+                            <p>2nd place Hamburg-Berlin-Time-Trial</p>
                             <span>Hamburg, 2022</span>
                         </li>
                         <li>
