@@ -12,10 +12,10 @@
     &::after {
         content: "";
         position: absolute;
-        background-image: url(./Bild2.png);
+        background-image: url(./JL_logo.png);
         background-size: auto calc(100% + 180px);
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position: calc(50% + 10px) center;
         opacity: 0.1;
         top: 0;
         left: 0;
@@ -32,7 +32,7 @@
         position: relative;
         text-align: center;
         
-        font-size: 8rem;
+        font-size: 7rem;
 
         @media screen and (max-width: 1820px) {
             font-size: 6rem;
