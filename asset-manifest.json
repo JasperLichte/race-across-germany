@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/race-across-germany/static/css/main.c8b1dafe.css",
-    "main.js": "/race-across-germany/static/js/main.13acdead.js",
+    "main.js": "/race-across-germany/static/js/main.06ec9070.js",
     "static/media/map.png": "/race-across-germany/static/media/map.b45d756498824be0d68f.png",
     "static/media/deutscheDepressionsHilfe.png": "/race-across-germany/static/media/deutscheDepressionsHilfe.938b748ce896e35754d2.png",
     "static/media/JL_logo.png": "/race-across-germany/static/media/JL_logo.8629cbb9dfb9882c3393.png",
@@ -11,10 +11,10 @@
     "static/media/dfwi.svg": "/race-across-germany/static/media/dfwi.856cf4de0af8bb61a2e38fa99e3daf02.svg",
     "index.html": "/race-across-germany/index.html",
     "main.c8b1dafe.css.map": "/race-across-germany/static/css/main.c8b1dafe.css.map",
-    "main.13acdead.js.map": "/race-across-germany/static/js/main.13acdead.js.map"
+    "main.06ec9070.js.map": "/race-across-germany/static/js/main.06ec9070.js.map"
   },
   "entrypoints": [
     "static/css/main.c8b1dafe.css",
-    "static/js/main.13acdead.js"
+    "static/js/main.06ec9070.js"
   ]
 }
