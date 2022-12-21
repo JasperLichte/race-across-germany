@@ -13,8 +13,8 @@ function RaceDescriptionSection() {
           It attracts a diverse field of <strong>participants from around the world</strong>.
           <br/><br/>
           Participants in the <i>Race Across Germany</i> must be prepared for the <strong>physical and mental demands</strong> of cycling for extended periods of time.
-          In addition to the physical demands, the <i>Race Across Germany</i> also requires participants to be mentally tough. The race is known for its 
-          <strong>unpredictable weather</strong>, which can range from sweltering heat to freezing rain. Riders must also deal with the mental strain of 
+          In addition to the physical demands, the <i>Race Across Germany</i> also requires participants to be mentally tough. The race is known for
+          its <strong>unpredictable weather</strong>, which can range from sweltering heat to freezing rain. Riders must also deal with the mental strain of 
           being on the road for such a long period of time, and must find ways to stay motivated and focused.
           <br/><br/>
           Despite these challenges, the <i>Race Across Germany</i> is a popular event that attracts a <strong>wide range of riders</strong>.
