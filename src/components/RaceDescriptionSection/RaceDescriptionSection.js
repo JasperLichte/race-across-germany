@@ -7,20 +7,18 @@ function RaceDescriptionSection() {
       <div className='main'>
         <p>
           <h2>About the Race</h2>
-          The Race Across Germany is an endurance cycling event that covers over <strong>1,100 kilometres</strong> of challenging terrain in Germany.
+          <i>Race Across Germany</i> is an endurance cycling event that covers over <strong>1,100 kilometres</strong> of challenging terrain in Germany.
           It is a <strong>non-stop</strong> race that requires riders to traverse a variety of landscapes, including mountains, forests, and urban areas.
           The event is designed for experienced and dedicated cyclists who are looking for a truly grueling and rewarding challenge.
-          It attracts a diverse field of <strong>participants from around the world</strong>, including amateur and professional riders.
+          It attracts a diverse field of <strong>participants from around the world</strong>.
           <br/><br/>
-          <p className='for-sponsors'>
-            Sponsorship of the Race Across Germany provides an excellent opportunity for companies to reach a passionate and engaged audience of cycling enthusiasts.
-            Sponsors have the opportunity to showcase their products and services to a large and loyal audience, as well as to demonstrate their commitment to promoting healthy, 
-            active lifestyles and supporting the cycling community.<br/>
-            In addition to on-course branding and visibility, sponsors can also benefit from a range of marketing and promotional opportunities, including social media promotion, 
-            website exposure, and media coverage.<br/>
-            Overall, the Race Across Germany is a high-profile and exciting event that offers a unique platform for companies looking to build brand awareness 
-            and connect with a dedicated and passionate audience.
-          </p>
+          Participants in the <i>Race Across Germany</i> must be prepared for the <strong>physical and mental demands</strong> of cycling for extended periods of time.
+          In addition to the physical demands, the <i>Race Across Germany</i> also requires participants to be mentally tough. The race is known for its 
+          <strong>unpredictable weather</strong>, which can range from sweltering heat to freezing rain. Riders must also deal with the mental strain of 
+          being on the road for such a long period of time, and must find ways to stay motivated and focused.
+          <br/><br/>
+          Despite these challenges, the <i>Race Across Germany</i> is a popular event that attracts a <strong>wide range of riders</strong>.
+          Whether an individual is a seasoned professional or a dedicated amateur, the race offers an opportunity to challenge oneself to the limits and test endurance.
         </p>
         <img src={map} alt="Map" className='map'/>
       </div>
