@@ -38,7 +38,7 @@ function AthleteSection() {
                     <ul>
                         <li>
                             <p>2nd place at the Long Distance World Championships</p>
-                            <span>Tour du Lac Léman, Genf, 2021</span>
+                            <span>Tour du Lac Léman, Geneva, 2021</span>
                         </li>
                         <li>
                             <p>2nd place at the North German Championships</p>
