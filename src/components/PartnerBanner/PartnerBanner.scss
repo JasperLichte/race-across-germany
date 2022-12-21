@@ -35,12 +35,19 @@
         }
     }
 
+    @media screen and (max-width: 480px) {
+        > * {
+            margin: .8em;
+        }
+    }
+
     img {
         height: 100px;
         animation: highlight 6s ease 0s infinite forwards;
 
         @media screen and (max-width: 480px) {
             animation: none;
+            transform: scale(.7);
         }
 
         &.kickstart {
