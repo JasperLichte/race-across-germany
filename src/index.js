@@ -7,6 +7,7 @@ import PartnerBanner from './components/PartnerBanner/PartnerBanner';
 import AthleteSection from './components/AthleteSection/AthleteSection';
 import TeamSection from './components/TeamSection/TeamSection';
 import GoalSection from './components/GoalSection/GoalSection';
+import CharitySection from './components/CharitySection/CharitySection';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,5 +18,6 @@ root.render(
     <AthleteSection />
     <TeamSection />
     <GoalSection />
+    <CharitySection />
   </React.StrictMode>
 );

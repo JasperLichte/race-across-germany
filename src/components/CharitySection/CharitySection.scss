@@ -1,0 +1,72 @@
+.CharitySection {
+    margin-top: 1em;
+    padding: 1em 0;
+    background-color: var(--color-black);
+    color: var(--color-white);
+
+    .quote {
+        margin-bottom: 2.5em;
+        p {
+            padding: 0 15%;
+            font-size: 1.6em;
+            font-style: italic;
+            text-align: center;
+            line-height: 1.4em;
+            margin-bottom: 0;
+
+            &::before, &::after {
+                content: '"';
+                position: absolute;
+                color: var(--color-pink);
+                font-size: 2.2em;
+            }
+            &::before {
+                margin-left: -.5em;
+                margin-top: .1em;
+            }
+            &::after {
+                margin-left: -.1em;
+                margin-top: .1em;
+            }
+        }
+        span {
+            display: block;
+            text-align: center;
+            opacity: .7;
+        }
+    }
+
+    .content {
+        display: flex;
+
+        p {
+            padding-right: 2em;
+            margin: 0;
+
+            .source {
+                font-size: .7em;
+                opacity: .6;
+            }
+        }
+
+        .depressionshilfe_logo {
+            flex-shrink: 0;
+            width: 300px;
+            height: 200px;
+            background-image: url('./deutscheDepressionsHilfe.png');
+            background-position: center center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        @media screen and (max-width: 720px) {
+            .depressionshilfe_logo {
+                display: none;
+            }
+
+            p {
+                padding-right: 0;
+            }
+        }
+    }
+}
