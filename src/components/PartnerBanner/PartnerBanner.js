@@ -6,9 +6,9 @@ import velopunkt from './logos/velopunkt.png';
 import noack from './logos/noack-sport-support.png';
 import maxplaner from './logos/maxplaner.png';
 
-function PartnerBanner() {
+function PartnerBanner({animation, iconSize}) {
   return (
-    <div className='PartnerBanner'>
+    <div className={`PartnerBanner ${animation === false ? 'no-animation' : ''} ${iconSize || ''}`}>
         <a href='https://www.kickstart-in.it/'><img src={kickstart} className='kickstart' alt='KICKstart in IT' /></a>  
         <a href='https://www.maxplaner.com/'><img src={maxplaner} className='maxplaner' alt='Max Planer' /></a>
         <a href='https://velopunkt.com/'><img src={velopunkt} className='velopunkt' alt='Velo.' /></a>

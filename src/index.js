@@ -23,6 +23,6 @@ root.render(
     <CharitySection />
     <SupportSection />
     <Footer />
-    <PartnerBanner />
+    <PartnerBanner animation={false} iconSize='small' />
   </React.StrictMode>
 );
