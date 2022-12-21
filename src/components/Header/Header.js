@@ -10,7 +10,7 @@ function Header() {
         {headerTitle}
         <span aria-hidden="true">{headerTitle}</span>
       </h1>
-      <h2>Jasper Lichte</h2>
+      <h2 className='no-border'>Jasper Lichte</h2>
     </header>
   );
 }
