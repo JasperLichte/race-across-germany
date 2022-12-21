@@ -1,0 +1,42 @@
+.Footer {
+    padding: 1em 0;
+    background: linear-gradient(var(--color-pink), var(--color-black));
+    margin-bottom: -2em;
+
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .links {
+        color: var(--color-white);
+        text-align: center;
+        h4 {
+            text-align: center;
+            font-size: 1.4em;
+            margin: 0;
+        }
+
+        p {
+            text-align: center;
+            display: block;
+            margin: 0;
+            margin-bottom: 1em;
+            font-size: .9em;
+            opacity: .8;
+        }
+
+        span {
+            display: block;
+            color: var(--color-white);
+            opacity: 1;
+            font-size: .85em;
+
+            a {
+                color: currentColor;
+                opacity: .6;
+            }
+        }
+    }
+}
