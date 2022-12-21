@@ -31,13 +31,13 @@
         }
 
         img {
-            transform: scale(.75);
+            transform: scale(.7);
         }
     }
 
     @media screen and (max-width: 480px) {
         > * {
-            margin: .8em;
+            margin: 1em 3em;
         }
     }
 
