@@ -16,25 +16,52 @@
 
     img {
         height: 100px;
+        animation: highlight 6s ease 0s infinite forwards;
 
-        &.dfwi {
-            height: 50px;
+        @media screen and (max-width: 480px) {
+            animation: none;
         }
 
         &.kickstart {
             height: 55px;
+            animation-delay: 0s;
         }
 
         &.maxplaner {
             height: 70px;
-        }
-
-        &.noack {
-            height: 80px;
+            animation-delay: 1s;
         }
 
         &.velopunkt {
             height: 80px;
+            animation-delay: 2s;
+        }
+
+        &.dfwi {
+            height: 50px;
+            animation-delay: 3s;
+        }
+
+        &.noack {
+            height: 80px;
+            animation-delay: 4s;
+        }
+
+        &.depressionshilfe {
+            height: 80px;
+            animation-delay: 5s;
+        }
+
+        @keyframes highlight {
+            0% {
+                transform: scale(1) rotate(0deg);
+            }
+            8% {
+                transform: scale(1.2) rotate(8deg);
+            }
+            12% {
+                transform: scale(1) rotate(0deg);
+            }
         }
     }
 }

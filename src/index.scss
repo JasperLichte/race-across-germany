@@ -23,6 +23,18 @@ body {
   max-width: calc(1280px + 2em);
   margin: 0 auto;
   padding: 1em;
-  font-size: 1.4em;
+  font-size: 1.3em;
   line-height: 1.4em;
+}
+
+p {
+
+  text-align: justify;
+
+  strong {
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    font-size: .9em;
+    padding: .2em .4em;
+  }
 }
