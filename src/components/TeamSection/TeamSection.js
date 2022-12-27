@@ -49,6 +49,10 @@ function TeamSection() {
                 <span>Performance & Nutrition</span>
             </div>
             <div>
+                <p>Josephine Noack</p>
+                <span>Head Coach & Sports Scientist</span>
+            </div>
+            <div>
                 <p>Maximilian Planer</p>
                 <span>Mental Coach</span>
             </div>
