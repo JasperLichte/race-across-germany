@@ -6,7 +6,7 @@ function AthleteSection() {
         <div className='main'>
             <h2 className='no-border'>The Athlete <span>Jasper Lichte</span></h2>
             <p>
-                In addition to his full-time job as <i>Head Coach for Software Engineering</i>, Jasper has been actively involved in competitive sports for many years.
+                In addition to his full-time job as <i>Coach for Software Engineering</i>, Jasper has been actively involved in competitive sports for many years.
                 In rowing, which he pursued very ambitiously until early 2022, Jasper has been able to celebrate some great successes.
                 In his first season on the bike, he was able to make a name for himself in several races.
             </p>
