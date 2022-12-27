@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/race-across-germany/static/css/main.3825bb30.css",
-    "main.js": "/race-across-germany/static/js/main.f6726316.js",
-    "static/media/map.png": "/race-across-germany/static/media/map.b45d756498824be0d68f.png",
-    "static/media/deutscheDepressionsHilfe.png": "/race-across-germany/static/media/deutscheDepressionsHilfe.938b748ce896e35754d2.png",
-    "static/media/JL_logo.png": "/race-across-germany/static/media/JL_logo.8629cbb9dfb9882c3393.png",
-    "static/media/velopunkt.png": "/race-across-germany/static/media/velopunkt.dcdcc1c09fd1b0afa63d.png",
-    "static/media/noack-sport-support.png": "/race-across-germany/static/media/noack-sport-support.3332e977827f08ca116b.png",
-    "static/media/kickstart-in-it.svg": "/race-across-germany/static/media/kickstart-in-it.d7a31d65f9f347d66573f7691530fa94.svg",
-    "index.html": "/race-across-germany/index.html",
-    "static/media/dfwi.svg": "/race-across-germany/static/media/dfwi.856cf4de0af8bb61a2e38fa99e3daf02.svg",
-    "main.3825bb30.css.map": "/race-across-germany/static/css/main.3825bb30.css.map",
-    "main.f6726316.js.map": "/race-across-germany/static/js/main.f6726316.js.map"
+    "main.css": "/static/css/main.ac03a160.css",
+    "main.js": "/static/js/main.365fabc9.js",
+    "static/media/map.png": "/static/media/map.b45d756498824be0d68f.png",
+    "static/media/deutscheDepressionsHilfe.png": "/static/media/deutscheDepressionsHilfe.938b748ce896e35754d2.png",
+    "static/media/JL_logo.png": "/static/media/JL_logo.8629cbb9dfb9882c3393.png",
+    "static/media/velopunkt.png": "/static/media/velopunkt.dcdcc1c09fd1b0afa63d.png",
+    "static/media/noack-sport-support.png": "/static/media/noack-sport-support.3332e977827f08ca116b.png",
+    "static/media/kickstart-in-it.svg": "/static/media/kickstart-in-it.d7a31d65f9f347d66573f7691530fa94.svg",
+    "static/media/dfwi.svg": "/static/media/dfwi.856cf4de0af8bb61a2e38fa99e3daf02.svg",
+    "index.html": "/index.html",
+    "main.ac03a160.css.map": "/static/css/main.ac03a160.css.map",
+    "main.365fabc9.js.map": "/static/js/main.365fabc9.js.map"
   },
   "entrypoints": [
-    "static/css/main.3825bb30.css",
-    "static/js/main.f6726316.js"
+    "static/css/main.ac03a160.css",
+    "static/js/main.365fabc9.js"
   ]
 }
