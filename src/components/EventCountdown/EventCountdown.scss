@@ -21,7 +21,7 @@
             }
 
             .label {
-                opacity: .5;
+                opacity: .4;
                 font-size: 40px;
                 position: absolute;
                 top: 50%;
@@ -30,6 +30,7 @@
                 
                 @media screen and (max-width: 780px) {
                     font-size: 18px;
+                    opacity: .5;
                     top: 100%;
                     left: 50%;
                     transform: translate(-50%, -100%);
@@ -37,7 +38,7 @@
             }
 
             .value {
-                opacity: .3;
+                opacity: .4;
                 font-size: 100px;
                 font-weight: bold;
                 position: absolute;
