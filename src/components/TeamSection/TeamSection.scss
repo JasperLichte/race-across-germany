@@ -37,5 +37,38 @@
                 font-size: .85em;
             }
         }
+
+        .socials {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: -.25em;
+
+            a {
+                width: 18px;
+                height: 18px;
+                display: inline-block;
+                margin-left: 1em;
+                background-position: center center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                opacity: .8;
+                color: transparent;
+                user-select: none;
+
+                &.instagram {
+                    background-image: url(./logos/instagram.png);
+                }
+
+                &.mail {
+                    background-image: url(./logos/email.png);
+                    transform: scale(1.15);
+                }
+
+                &.strava {
+                    background-image: url(./logos/strava.png);
+                    opacity: .7;
+                }
+            }
+        }
     }
 }
