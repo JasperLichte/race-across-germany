@@ -1,0 +1,34 @@
+.EventCountdown {
+    .countdown {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .days, .hours, .minutes, .seconds {
+            position: relative;
+            height: 200px;
+            width: 200px;
+            overflow: hidden;
+
+            .label {
+                opacity: .5;
+                font-size: 40px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .value {
+                opacity: .3;
+                font-size: 100px;
+                font-weight: bold;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: var(--color-pink);
+            }
+        }
+    }
+}

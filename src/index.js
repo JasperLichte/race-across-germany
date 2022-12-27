@@ -10,12 +10,14 @@ import GoalSection from './components/GoalSection/GoalSection';
 import CharitySection from './components/CharitySection/CharitySection';
 import SupportSection from './components/SupportSection/SupportSection';
 import Footer from './components/Footer/Footer';
+import EventCountdown from './components/EventCountdown/EventCountdown';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
     <RaceDescriptionSection />
+    <EventCountdown />
     <PartnerBanner />
     <AthleteSection />
     <TeamSection />
