@@ -1,7 +1,7 @@
 {
   "name": "race-across-germany",
   "version": "0.1.0",
-  "homepage": "http://www.team-lichte.de/",
+  "homepage": "/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
