@@ -10,7 +10,7 @@ function TeamSection() {
             most challenging cycling events in the world.
             <br/>
             <br/>
-            Jasper is joined by a team of <strong>seven support personnel</strong>, all of whom are committed to helping him perform at the highest level.
+            Jasper is joined by a team of <strong>eight support personnel</strong>, all of whom are committed to helping him perform at the highest level.
             <br/>
             In addition to our rider and support team, we will also be using <strong>two support vehicles</strong> to help us navigate the course and provide us with the necessary
             supplies and support to compete at the highest level. Our goal is to win the <i>Race Across Germany</i>, and we are confident in our ability to do so with
