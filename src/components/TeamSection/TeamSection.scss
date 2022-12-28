@@ -11,6 +11,7 @@
         flex-wrap: wrap;
         > div {
             background-color: var(--color-black);
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
             color: var(--color-white);
             padding: 1em;
             display: flex;
@@ -25,20 +26,8 @@
             }
 
             @media screen and (max-width: 600px) {
-
-                &:nth-of-type(even) {
-                    margin-left: 1.5em;
-                    margin-right: -.5em;
-                }
-
-                &:nth-of-type(odd) {
-                    margin-left: -.5em;
-                    margin-right: 1.5em;
-                }
-
-                &:first-of-type {
-                    border-left: none;
-                }
+                margin-left: -.5em;
+                margin-right: -.5em;
             }
 
             p {
@@ -49,7 +38,7 @@
             }
 
             span {
-                opacity: .8;
+                opacity: .75;
                 font-size: .85em;
             }
         }
@@ -68,7 +57,7 @@
                 background-position: center center;
                 background-size: contain;
                 background-repeat: no-repeat;
-                opacity: .7;
+                opacity: .9;
                 color: transparent;
                 user-select: none;
 
@@ -83,7 +72,7 @@
 
                 &.strava {
                     background-image: url(./logos/strava.png);
-                    opacity: .6;
+                    opacity: .8;
                 }
             }
         }
