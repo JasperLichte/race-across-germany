@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c065037.css",
-    "main.js": "/static/js/main.2cd97c89.js",
+    "main.css": "/static/css/main.6c09e729.css",
+    "main.js": "/static/js/main.9900ca8f.js",
     "static/media/map.png": "/static/media/map.b45d756498824be0d68f.png",
     "static/media/deutscheDepressionsHilfe.png": "/static/media/deutscheDepressionsHilfe.938b748ce896e35754d2.png",
     "static/media/strava.png": "/static/media/strava.d4e226d2d949cc54539a.png",
@@ -13,11 +13,11 @@
     "static/media/kickstart-in-it.svg": "/static/media/kickstart-in-it.d7a31d65f9f347d66573f7691530fa94.svg",
     "static/media/dfwi.svg": "/static/media/dfwi.856cf4de0af8bb61a2e38fa99e3daf02.svg",
     "index.html": "/index.html",
-    "main.2c065037.css.map": "/static/css/main.2c065037.css.map",
-    "main.2cd97c89.js.map": "/static/js/main.2cd97c89.js.map"
+    "main.6c09e729.css.map": "/static/css/main.6c09e729.css.map",
+    "main.9900ca8f.js.map": "/static/js/main.9900ca8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c065037.css",
-    "static/js/main.2cd97c89.js"
+    "static/css/main.6c09e729.css",
+    "static/js/main.9900ca8f.js"
   ]
 }
