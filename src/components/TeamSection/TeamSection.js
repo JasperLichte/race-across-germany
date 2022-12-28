@@ -31,7 +31,7 @@ function TeamSection() {
             </div>
             <div>
                 <p>Martin Duscha</p>
-                <span>Team manager & organizer</span>
+                <span>Team manager & Organizer</span>
                 <div className='socials'>
                     <a className='instagram' href="https://www.instagram.com/maaadinhh">.</a>
                     <a className='strava' href="https://www.strava.com/athletes/21472500">.</a>
@@ -40,7 +40,7 @@ function TeamSection() {
             </div>
             <div>
                 <p>Phillip Wieckowski</p>
-                <span>Bike mechanic</span>
+                <span>Bike Mechanic</span>
                 <div className='socials'>
                     <a className='instagram' href="https://www.instagram.com/phillip_auf_bike">.</a>
                 </div>
