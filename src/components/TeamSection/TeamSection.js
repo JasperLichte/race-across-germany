@@ -77,18 +77,18 @@ function TeamSection() {
                 </div>
             </div>
             <div>
+                <p>Maximilian Planer</p>
+                <span>Mental Coach</span>
+                <div className='socials'>
+                    <a className='instagram' href="https://www.instagram.com/maxplaner">.</a>
+                </div>
+            </div>
+            <div>
                 <p>Josephine Noack</p>
                 <span>Head Coach & Sports Scientist</span>
                 <div className='socials'>
                     <a className='instagram' href="https://www.instagram.com/josephine.noack">.</a>
                     <a className='strava' href="https://www.strava.com/athletes/24473648">.</a>
-                </div>
-            </div>
-            <div>
-                <p>Maximilian Planer</p>
-                <span>Mental Coach</span>
-                <div className='socials'>
-                    <a className='instagram' href="https://www.instagram.com/maxplaner">.</a>
                 </div>
             </div>
         </div>
