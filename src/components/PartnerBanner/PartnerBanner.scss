@@ -31,7 +31,7 @@
         }
 
         img {
-            transform: scale(.7);
+            transform: scale(.8);
         }
     }
 
@@ -42,41 +42,41 @@
     }
 
     img {
-        height: 100px;
+        height: 80px;
         animation: highlight 6s ease 0s infinite forwards;
 
         @media screen and (max-width: 480px) {
             animation: none;
-            transform: scale(.7);
+            transform: scale(.8);
         }
 
         &.kickstart {
-            height: 55px;
+            height: 45px;
             animation-delay: 0s;
         }
 
         &.maxplaner {
-            height: 70px;
+            height: 55px;
             animation-delay: 1s;
         }
 
         &.velopunkt {
-            height: 80px;
+            height: 60px;
             animation-delay: 2s;
         }
 
         &.dfwi {
-            height: 50px;
+            height: 40px;
             animation-delay: 3s;
         }
 
         &.noack {
-            height: 80px;
+            height: 65px;
             animation-delay: 4s;
         }
 
         &.depressionshilfe {
-            height: 90px;
+            height: 70px;
             animation-delay: 5s;
         }
 

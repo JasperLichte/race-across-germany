@@ -6,7 +6,7 @@ function CharitySection() {
         <div className='main'>
             <div className='quote'>
                 <p>Mental strength is at least as important as physical fitness for success in ultracycling.</p>
-                <span>- Torsten Frank 2018</span>
+                <span>- Torsten Frank, 2018</span>
             </div>
             <div className='content'>
                 <p>
