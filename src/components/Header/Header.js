@@ -1,8 +1,6 @@
 import './Header.scss';
 
 function Header() {
-  const headerTitle = 'Race Across Germany';
-
   return (
     <header className='Header'>
       <div className='JL_logo'></div>
