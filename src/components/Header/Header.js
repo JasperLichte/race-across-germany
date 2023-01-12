@@ -5,12 +5,11 @@ function Header() {
 
   return (
     <header className='Header'>
-      <h1>
-        <span aria-hidden="true">{headerTitle}</span>
-        {headerTitle}
-        <span aria-hidden="true">{headerTitle}</span>
-      </h1>
-      <h2 className='no-border'>Jasper Lichte</h2>
+      <div className='JL_logo'></div>
+      <div className='Header-wrapper'>
+        <h1>Race Across Germany <span>2023</span></h1>
+        <h2>Team Lichte</h2>
+      </div>
     </header>
   );
 }
