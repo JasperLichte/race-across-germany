@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.b698820d.css",
+    "main.css": "/static/css/main.87449eb8.css",
     "main.js": "/static/js/main.7c4b3531.js",
-    "static/media/bg.JPG": "/static/media/bg.04e11eca9929abdcafd0.JPG",
+    "static/media/bg1.jpg": "/static/media/bg1.bebb447a6eb4bcc711cb.jpg",
     "static/media/map.png": "/static/media/map.b45d756498824be0d68f.png",
     "static/media/deutscheDepressionsHilfe.png": "/static/media/deutscheDepressionsHilfe.938b748ce896e35754d2.png",
     "static/media/strava.png": "/static/media/strava.d4e226d2d949cc54539a.png",
@@ -14,11 +14,11 @@
     "static/media/kickstart-in-it.svg": "/static/media/kickstart-in-it.d7a31d65f9f347d66573f7691530fa94.svg",
     "static/media/dfwi.svg": "/static/media/dfwi.856cf4de0af8bb61a2e38fa99e3daf02.svg",
     "index.html": "/index.html",
-    "main.b698820d.css.map": "/static/css/main.b698820d.css.map",
+    "main.87449eb8.css.map": "/static/css/main.87449eb8.css.map",
     "main.7c4b3531.js.map": "/static/js/main.7c4b3531.js.map"
   },
   "entrypoints": [
-    "static/css/main.b698820d.css",
+    "static/css/main.87449eb8.css",
     "static/js/main.7c4b3531.js"
   ]
 }
