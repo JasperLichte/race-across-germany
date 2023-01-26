@@ -8,7 +8,7 @@ function DieZweiteLuftSlide() {
         </div>
         <div className='description'>
             <p>
-                I had the opportunity to be a guest on the podcast <strong>"Die zweite Luft"</strong> where I had the pleasure of
+                I had the opportunity to be a guest on the podcast <strong><em>Die zweite Luft</em></strong> where I had the pleasure of
                 appearing alongside my coach Josephine. We had a great conversation about the mental
                 and physical preparation that goes into competing in a race.
                 <br />

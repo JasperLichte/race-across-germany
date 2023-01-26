@@ -10,7 +10,7 @@ function MediaSection() {
   return (
     <section className='MediaSection'>
         <div className='main'>
-            <Slide>
+            <Slide easing='ease-out' transitionDuration={1200}>
                 <DieZweiteLuftSlide />
                 <TageblattSlide />
             </Slide>

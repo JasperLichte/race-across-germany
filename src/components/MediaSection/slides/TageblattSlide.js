@@ -8,7 +8,7 @@ function TageblattSlide() {
         </div>
         <div className='description'>
             <p>
-            I am very happy that my preparations for the upcoming race across Germany have been featured in the newspaper "Tageblatt".
+            I am very happy that my preparations for the upcoming race across Germany have been featured in the newspaper <strong><em>Tageblatt</em></strong>.
             <br />
             The article delves into my training and the efforts that I am putting into preparing for the race. It also highlights the challenges I anticipate facing during the race and the strategies I am using to overcome them.
             <br /><br />
