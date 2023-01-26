@@ -21,7 +21,7 @@ function DieZweiteLuftSlide() {
                 I highly recommend giving it a listen, and I hope you enjoy it as much as I did!
             </p>
             <div className='ctas'>
-                <a href="https://open.spotify.com/episode/5yxu1dewakdqADRsWAbWP0?si=340bc62a4f5a4e41">Listen on Spotify</a>
+                <a href="https://open.spotify.com/episode/5yxu1dewakdqADRsWAbWP0?si=340bc62a4f5a4e41" target="_blank">Listen on Spotify</a>
             </div>
         </div>
     </div>
