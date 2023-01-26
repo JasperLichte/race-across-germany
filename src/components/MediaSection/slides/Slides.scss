@@ -1,23 +1,22 @@
 .custom-slide {
-    height: 320px;
     background-color: var(--color-pink);
     color: var(--color-white);
     display: flex;
     overflow: hidden;
+    position: relative;
 
-    @media screen and (max-width: 1020px) {
-        height: 250px;
+    @media screen and (max-width: 580px) {
+        .image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: .7;
+        }
     }
-
-    @media screen and (max-width: 720px) {
-        height: 180px;
-    }
-
-    .image, .description {
-        flex: 1;
-    }
-
     .image {
+        flex: 1;
         background: linear-gradient(90deg, var(--color-pink), var(--color-black));
 
         .logo {
@@ -26,12 +25,61 @@
             background-repeat: no-repeat;
             background-position: center center;
             transform: scale(1.38);
+
+            @media screen and (max-width: 1020px) {
+                transform: scale(2.8);
+            }
+
+            @media screen and (max-width: 580px) {
+                transform: scale(1.2);
+            }
         }
     }
 
     .description {
         flex: 2;
         background-color: var(--color-black);
-        padding: 1em;
+        color: var(--color-white);
+        padding: 1em 2em;
+
+        p {
+            opacity: .8;
+            font-size: .9em;
+
+            strong {
+                font-size: 1.15em;
+            }
+
+            @media screen and (max-width: 580px) {
+                opacity: .99;
+            }
+        }
+
+        .ctas {
+            margin: 1em 0 .5em 0;
+            display: flex;
+            justify-content: flex-end;
+
+            a, a:focus, a:visited {
+                background-color: transparent;
+                border: 1px solid var(--color-pink);
+                color: var(--color-pink);
+                text-decoration: none;
+                padding: .4em .75em;
+                opacity: .7;
+                transition: all .2s ease;
+                font-weight: bold;
+
+                @media screen and (max-width: 580px) {
+                    border: 1px solid var(--color-white);
+                    color: var(--color-white);
+                }
+            }
+
+            a:hover {
+                transform: scale(1.05);
+                border-radius: 5px;
+            }
+        }
     }
 }
