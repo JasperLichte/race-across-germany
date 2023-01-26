@@ -26,6 +26,7 @@ body {
   padding: 1em;
   font-size: 1.1em;
   line-height: 1.3em;
+  overflow-x: hidden;
   @media screen and (max-width: 720px) {
     font-size: 1.1em;
     line-height: 1.3em;
