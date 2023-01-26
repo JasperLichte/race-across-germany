@@ -24,15 +24,6 @@
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center center;
-            transform: scale(1.38);
-
-            @media screen and (max-width: 1020px) {
-                transform: scale(2.8);
-            }
-
-            @media screen and (max-width: 580px) {
-                transform: scale(1.2);
-            }
         }
     }
 
@@ -48,6 +39,7 @@
 
             strong {
                 font-size: 1.15em;
+                opacity: .95;
             }
 
             @media screen and (max-width: 580px) {

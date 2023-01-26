@@ -1,0 +1,10 @@
+.TageblattSlide {
+    .image {
+        transform: scale(1.15);
+        .logo {
+            background-image: url(./logos/tageblatt.png);
+            opacity: .25;
+        }
+    }
+
+}
