@@ -54,4 +54,17 @@
             }
         }
     }
+
+    .event-date {
+        text-align: center;
+        margin-top: -3em;
+        opacity: .35;
+        margin-right: -35em;
+
+        @media screen and (max-width: 780px) {
+            margin-top: .5em;
+            margin-right: -13em;
+            font-size: .9em;
+        }
+    }
 }

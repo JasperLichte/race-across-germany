@@ -2,7 +2,7 @@ import './CharitySection.scss';
 
 function CharitySection() {
   return (
-    <div className='CharitySection'>
+    <section className='CharitySection'>
         <div className='main'>
             <div className='quote'>
                 <p>Mental strength is at least as important as physical fitness for success in ultracycling.</p>
@@ -23,7 +23,7 @@ function CharitySection() {
                 <div className='depressionshilfe_logo'></div>
             </div>
         </div>
-    </div>
+    </section>
   );
 }
 
