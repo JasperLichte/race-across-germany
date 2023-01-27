@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.83e34dd7.css",
-    "main.js": "/static/js/main.ff0a0d3f.js",
+    "main.js": "/static/js/main.158f7e9f.js",
     "static/media/bg1.jpg": "/static/media/bg1.bebb447a6eb4bcc711cb.jpg",
     "static/media/map.png": "/static/media/map.b45d756498824be0d68f.png",
     "static/media/deutscheDepressionsHilfe.png": "/static/media/deutscheDepressionsHilfe.938b748ce896e35754d2.png",
@@ -18,10 +18,10 @@
     "index.html": "/index.html",
     "static/media/dfwi.svg": "/static/media/dfwi.856cf4de0af8bb61a2e38fa99e3daf02.svg",
     "main.83e34dd7.css.map": "/static/css/main.83e34dd7.css.map",
-    "main.ff0a0d3f.js.map": "/static/js/main.ff0a0d3f.js.map"
+    "main.158f7e9f.js.map": "/static/js/main.158f7e9f.js.map"
   },
   "entrypoints": [
     "static/css/main.83e34dd7.css",
-    "static/js/main.ff0a0d3f.js"
+    "static/js/main.158f7e9f.js"
   ]
 }
