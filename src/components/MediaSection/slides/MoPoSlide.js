@@ -8,7 +8,7 @@ function MoPoSlide() {
         </div>
         <div className='description'>
             <p>
-                I am proud that the newspaper <strong>Hamburger Morgenpost</strong> featured our upcoming Race Across Germany and the goals of our project.
+                We are proud that the newspaper <strong>Hamburger Morgenpost</strong> featured our upcoming Race Across Germany and the goals of our project.
                 <br />
                 <br />
                 The article offers an inside look into the objectives we hope to achieve through our project and how our race is an important step towards reaching these goals.
