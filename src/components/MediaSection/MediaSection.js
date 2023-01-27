@@ -9,14 +9,14 @@ import MoPoSlide from './slides/MoPoSlide';
 
 function MediaSection() {
   const onChange = (from, to) => {window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-      event: 'Generic Event',
-      event_name: 'media_slider_next',
-      media_slider_next : {
-          from_slide: from,
-          to_slide: to, 
-      }
-    });
+    // window.dataLayer.push({
+    //   event: 'Generic Event',
+    //   event_name: 'media_slider_next',
+    //   media_slider_next : {
+    //       from_slide: from,
+    //       to_slide: to, 
+    //   }
+    // });
   };
 
   return (
