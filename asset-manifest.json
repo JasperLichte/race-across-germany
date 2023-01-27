@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ba015fc.css",
-    "main.js": "/static/js/main.d3ce3c13.js",
+    "main.css": "/static/css/main.83e34dd7.css",
+    "main.js": "/static/js/main.ff0a0d3f.js",
     "static/media/bg1.jpg": "/static/media/bg1.bebb447a6eb4bcc711cb.jpg",
     "static/media/map.png": "/static/media/map.b45d756498824be0d68f.png",
     "static/media/deutscheDepressionsHilfe.png": "/static/media/deutscheDepressionsHilfe.938b748ce896e35754d2.png",
@@ -13,14 +13,15 @@
     "static/media/velopunkt.png": "/static/media/velopunkt.dcdcc1c09fd1b0afa63d.png",
     "static/media/email.png": "/static/media/email.344fdc35c1843879bab4.png",
     "static/media/noack-sport-support.png": "/static/media/noack-sport-support.3332e977827f08ca116b.png",
+    "static/media/sport-import.svg": "/static/media/sport-import.0e3943ba3d30ba3f1c07e03f7bcb82f4.svg",
     "static/media/kickstart-in-it.svg": "/static/media/kickstart-in-it.d7a31d65f9f347d66573f7691530fa94.svg",
     "static/media/dfwi.svg": "/static/media/dfwi.856cf4de0af8bb61a2e38fa99e3daf02.svg",
     "index.html": "/index.html",
-    "main.1ba015fc.css.map": "/static/css/main.1ba015fc.css.map",
-    "main.d3ce3c13.js.map": "/static/js/main.d3ce3c13.js.map"
+    "main.83e34dd7.css.map": "/static/css/main.83e34dd7.css.map",
+    "main.ff0a0d3f.js.map": "/static/js/main.ff0a0d3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ba015fc.css",
-    "static/js/main.d3ce3c13.js"
+    "static/css/main.83e34dd7.css",
+    "static/js/main.ff0a0d3f.js"
   ]
 }
