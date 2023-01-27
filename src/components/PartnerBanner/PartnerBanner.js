@@ -10,7 +10,7 @@ import sportimport from './logos/sport-import.svg';
 function PartnerBanner({animation, iconSize}) {
   return (
     <div className={`PartnerBanner ${animation === false ? 'no-animation' : ''} ${iconSize || ''}`}>
-    <a href='https://noacksportsupport.de/'><img src={noack} className='noack' alt='Noack Sport Support' /></a>
+        <a href='https://noacksportsupport.de/'><img src={noack} className='noack' alt='Noack Sport Support' /></a>
         <a href='https://www.kickstart-in.it/'><img src={kickstart} className='kickstart' alt='KICKstart in IT' /></a>  
         <a href='https://velopunkt.com/'><img src={velopunkt} className='velopunkt' alt='Velo.' /></a>
         <a href='https://www.sportimport.de/'><img src={sportimport} className='sportimport' alt='Sport Import' /></a>
