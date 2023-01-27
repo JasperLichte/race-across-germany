@@ -1,0 +1,9 @@
+.MoPoSlide {
+    .image {
+        transform: scale(1);
+        .logo {
+            background-image: url(./logos/mopo.png);
+            opacity: .25;
+        }
+    }
+}

@@ -4,6 +4,7 @@ import 'react-slideshow-image/dist/styles.css';
 import DieZweiteLuftSlide from './slides/DieZweiteLuftSlide';
 import './slides/Slides.scss';
 import TageblattSlide from './slides/TageblattSlide';
+import MoPoSlide from './slides/MoPoSlide';
 
 
 function MediaSection() {
@@ -13,6 +14,7 @@ function MediaSection() {
             <Slide easing='ease-out' transitionDuration={1200}>
                 <DieZweiteLuftSlide />
                 <TageblattSlide />
+                <MoPoSlide />
             </Slide>
         </div>
     </section>
