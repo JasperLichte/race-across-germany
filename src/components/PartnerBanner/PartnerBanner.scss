@@ -43,7 +43,7 @@
 
     img {
         height: 80px;
-        animation: highlight 6s ease 0s infinite forwards;
+        animation: highlight 7s ease 0s infinite forwards;
 
         @media screen and (max-width: 480px) {
             animation: none;
@@ -52,12 +52,12 @@
 
         &.kickstart {
             height: 45px;
-            animation-delay: 0s;
+            animation-delay: 1s;
         }
 
         &.maxplaner {
             height: 55px;
-            animation-delay: 1s;
+            animation-delay: 5s;
         }
 
         &.velopunkt {
@@ -67,17 +67,22 @@
 
         &.dfwi {
             height: 40px;
-            animation-delay: 3s;
+            animation-delay: 4s;
         }
 
         &.noack {
             height: 65px;
-            animation-delay: 4s;
+            animation-delay: 0s;
+        }
+
+        &.sportimport {
+            height: 37px;
+            animation-delay: 3s;
         }
 
         &.depressionshilfe {
             height: 70px;
-            animation-delay: 5s;
+            animation-delay: 6s;
         }
 
         @keyframes highlight {
