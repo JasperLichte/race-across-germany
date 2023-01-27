@@ -2,7 +2,7 @@ import './GoalSection.scss';
 
 function GoalSection() {
   return (
-    <div className='GoalSection'>
+    <div className='GoalSection' id='our-goals'>
         <div className='main'>
             <h2>Our Goals</h2>
             <p>

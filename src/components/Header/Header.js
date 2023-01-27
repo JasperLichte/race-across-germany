@@ -1,8 +1,10 @@
 import './Header.scss';
+import Nav from './nav/Nav';
 
 function Header() {
   return (
     <header className='Header'>
+      <Nav />
       <div className='JL_logo'></div>
       <div className='Header-wrapper'>
         <h1>Race Across Germany <span>2023</span></h1>

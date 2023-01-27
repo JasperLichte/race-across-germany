@@ -2,7 +2,7 @@ import './SupportSection.scss';
 
 function SupportSection() {
   return (
-    <section className='SupportSection'>
+    <section className='SupportSection' id='support'>
       <div className='main'>
         <h2>Why and how to support</h2>
         <p>

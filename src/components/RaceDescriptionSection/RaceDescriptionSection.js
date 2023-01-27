@@ -3,7 +3,7 @@ import map from './map.png';
 
 function RaceDescriptionSection() {
   return (
-    <section className='RaceDescriptionSection'>
+    <section className='RaceDescriptionSection' id='about-the-race'>
       <div className='main'>
         <p>
           <h2>About the Race</h2>

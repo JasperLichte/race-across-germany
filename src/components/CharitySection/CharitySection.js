@@ -2,7 +2,7 @@ import './CharitySection.scss';
 
 function CharitySection() {
   return (
-    <section className='CharitySection'>
+    <section className='CharitySection' id='charity'>
         <div className='main'>
             <div className='quote'>
                 <p>Mental strength is at least as important as physical fitness for success in ultracycling.</p>

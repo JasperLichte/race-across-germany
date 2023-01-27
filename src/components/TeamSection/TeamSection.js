@@ -2,7 +2,7 @@ import './TeamSection.scss';
 
 function TeamSection() {
   return (
-    <section className='TeamSection'>
+    <section className='TeamSection' id='the-team'>
       <div className='main'>
         <h2>The Team</h2>
         <p className='introduction'>

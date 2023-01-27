@@ -2,7 +2,7 @@ import './AthleteSection.scss';
 
 function AthleteSection() {
   return (
-    <section className='AthleteSection'>
+    <section className='AthleteSection' id='the-athlete'>
         <div className='main'>
             <h2 className='no-border'>The Athlete <span>Jasper Lichte</span></h2>
             <p>

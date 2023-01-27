@@ -1,0 +1,44 @@
+.Nav {
+    position: absolute;
+    bottom: 2em;
+    left: 5em;
+    right: 5em;
+
+    @media screen and (max-width: 1080px) {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        
+
+        li {
+            display: flex;
+            justify-content: center;
+            font-size: 1.1em;
+
+            a, a:visited, a:focus {
+                color: var(--color-white);
+                opacity: .7;
+                text-decoration: none;
+                padding: .4em 1em;
+                transition: all 200ms ease;
+            }
+            flex-grow: 1;
+            border-right: 2px solid rgba(255, 255, 255, .3);
+
+            &:last-of-type {
+                border-right: none;
+            }
+
+            &:hover {
+                a {
+                    transform: scale(1.15);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
