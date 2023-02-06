@@ -8,7 +8,8 @@ import MoPoSlide from './slides/MoPoSlide';
 
 
 function MediaSection() {
-  const onChange = (from, to) => {window.dataLayer = window.dataLayer || [];
+  const onChange = (from, to) => {
+    window.dataLayer = window.dataLayer || [];
     // window.dataLayer.push({
     //   event: 'Generic Event',
     //   event_name: 'media_slider_next',
@@ -25,7 +26,7 @@ function MediaSection() {
             <Slide easing='ease-out' transitionDuration={800} onChange={onChange}>
                 <DieZweiteLuftSlide />
                 <TageblattSlide />
-                <MoPoSlide />
+                <MoPoSlide /> 
             </Slide>
         </div>
     </section>

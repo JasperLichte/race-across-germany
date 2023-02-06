@@ -42,7 +42,7 @@
     }
 
     img {
-        height: 80px;
+        height:60px;
         animation: highlight 7s ease 0s infinite forwards;
 
         @media screen and (max-width: 480px) {
@@ -50,14 +50,14 @@
             transform: scale(.8);
         }
 
+        &.noack {
+            height: 65px;
+            animation-delay: 0s;
+        }
+
         &.kickstart {
             height: 45px;
             animation-delay: 1s;
-        }
-
-        &.maxplaner {
-            height: 55px;
-            animation-delay: 5s;
         }
 
         &.velopunkt {
@@ -65,23 +65,23 @@
             animation-delay: 2s;
         }
 
-        &.dfwi {
-            height: 40px;
-            animation-delay: 4s;
-        }
-
-        &.noack {
-            height: 65px;
-            animation-delay: 0s;
-        }
-
         &.sportimport {
             height: 37px;
             animation-delay: 3s;
         }
 
-        &.depressionshilfe {
-            height: 70px;
+        &.dfwi {
+            height: 40px;
+            animation-delay: 4s;
+        }
+
+        &.maxplaner {
+            height: 55px;
+            animation-delay: 5s;
+        }
+
+        &.h1media {
+            height: 60px;
             animation-delay: 6s;
         }
 
