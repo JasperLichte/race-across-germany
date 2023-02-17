@@ -17,8 +17,8 @@ function MediaSection() {
     <section className='MediaSection'>
         <div className='main'>
             <Slide easing='ease-out' transitionDuration={800} onChange={onChange}>
-                <DieZweiteLuftSlide />
                 <YoutubeSlide />
+                <DieZweiteLuftSlide />
                 <TageblattSlide />
                 <MoPoSlide /> 
             </Slide>
