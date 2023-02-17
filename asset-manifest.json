@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a5658d0.css",
-    "main.js": "/static/js/main.43311ce2.js",
+    "main.css": "/static/css/main.c2649638.css",
+    "main.js": "/static/js/main.a3b9bd0f.js",
     "static/media/bg1.jpg": "/static/media/bg1.bebb447a6eb4bcc711cb.jpg",
     "static/media/map.png": "/static/media/map.b45d756498824be0d68f.png",
     "static/media/deutscheDepressionsHilfe.png": "/static/media/deutscheDepressionsHilfe.938b748ce896e35754d2.png",
@@ -11,6 +11,7 @@
     "static/media/instagram.png": "/static/media/instagram.6f7718f32219734b6638.png",
     "static/media/tageblatt.png": "/static/media/tageblatt.42d4ae646e1ba89cbb7c.png",
     "static/media/velopunkt.png": "/static/media/velopunkt.dcdcc1c09fd1b0afa63d.png",
+    "static/media/youtube.png": "/static/media/youtube.5e6e9f83af1cd03ef1ce.png",
     "static/media/email.png": "/static/media/email.344fdc35c1843879bab4.png",
     "static/media/noack-sport-support.png": "/static/media/noack-sport-support.3332e977827f08ca116b.png",
     "static/media/sport-import.svg": "/static/media/sport-import.0e3943ba3d30ba3f1c07e03f7bcb82f4.svg",
@@ -18,11 +19,11 @@
     "index.html": "/index.html",
     "static/media/h1media.svg": "/static/media/h1media.012d1809adf7f351f3ba7b87ceb2ca72.svg",
     "static/media/dfwi.svg": "/static/media/dfwi.856cf4de0af8bb61a2e38fa99e3daf02.svg",
-    "main.5a5658d0.css.map": "/static/css/main.5a5658d0.css.map",
-    "main.43311ce2.js.map": "/static/js/main.43311ce2.js.map"
+    "main.c2649638.css.map": "/static/css/main.c2649638.css.map",
+    "main.a3b9bd0f.js.map": "/static/js/main.a3b9bd0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a5658d0.css",
-    "static/js/main.43311ce2.js"
+    "static/css/main.c2649638.css",
+    "static/js/main.a3b9bd0f.js"
   ]
 }
