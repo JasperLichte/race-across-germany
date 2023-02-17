@@ -1,0 +1,18 @@
+.YoutubeSlide {
+    .image {
+        transform: scale(1.38);
+        .logo {
+            background-image: url(./youtube.png);
+            opacity: .15;
+            
+
+            @media screen and (max-width: 1020px) {
+                transform: scale(1.4);
+            }
+
+            @media screen and (max-width: 580px) {
+                transform: scale(1.2);
+            }
+        }
+    }
+}

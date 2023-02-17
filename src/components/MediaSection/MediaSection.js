@@ -1,23 +1,16 @@
 import './MediaSection.scss';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import DieZweiteLuftSlide from './slides/DieZweiteLuftSlide';
+import DieZweiteLuftSlide from './slides/DieZweiteLuft/DieZweiteLuftSlide';
 import './slides/Slides.scss';
-import TageblattSlide from './slides/TageblattSlide';
-import MoPoSlide from './slides/MoPoSlide';
+import TageblattSlide from './slides/Tageblatt/TageblattSlide';
+import MoPoSlide from './slides/MoPo/MoPoSlide';
+import YoutubeSlide from './slides/Youtube/YoutubeSlide';
 
 
 function MediaSection() {
   const onChange = (from, to) => {
     window.dataLayer = window.dataLayer || [];
-    // window.dataLayer.push({
-    //   event: 'Generic Event',
-    //   event_name: 'media_slider_next',
-    //   media_slider_next : {
-    //       from_slide: from,
-    //       to_slide: to, 
-    //   }
-    // });
   };
 
   return (
@@ -25,6 +18,7 @@ function MediaSection() {
         <div className='main'>
             <Slide easing='ease-out' transitionDuration={800} onChange={onChange}>
                 <DieZweiteLuftSlide />
+                <YoutubeSlide />
                 <TageblattSlide />
                 <MoPoSlide /> 
             </Slide>
