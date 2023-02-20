@@ -6,6 +6,7 @@ import './slides/Slides.scss';
 import TageblattSlide from './slides/Tageblatt/TageblattSlide';
 import MoPoSlide from './slides/MoPo/MoPoSlide';
 import YoutubeSlide from './slides/Youtube/YoutubeSlide';
+import KnownFromBanner from './KnownFromBanner/KnownFromBanner';
 
 
 function MediaSection() {
@@ -16,12 +17,13 @@ function MediaSection() {
   return (
     <section className='MediaSection'>
         <div className='main'>
-            <Slide easing='ease-out' transitionDuration={800} onChange={onChange}>
-                <YoutubeSlide />
-                <DieZweiteLuftSlide />
-                <TageblattSlide />
-                <MoPoSlide /> 
-            </Slide>
+          <KnownFromBanner />
+          <Slide easing='ease-out' transitionDuration={800} onChange={onChange}>
+            <YoutubeSlide />
+            <DieZweiteLuftSlide />
+            <TageblattSlide />
+            <MoPoSlide /> 
+          </Slide>
         </div>
     </section>
   );
