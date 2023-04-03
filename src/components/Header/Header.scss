@@ -40,7 +40,7 @@
       bottom: var(--margin-top);
       left: var(--margin-left);
       right: var(--margin-left);
-      background-color: var(--color-pink);
+      background-color: var(--color-black);
       opacity: .75;
       box-shadow: 0 0 5px 0 rgba(0, 0, 0, .4);
     }
@@ -73,7 +73,7 @@
         margin: 0;
 
         span {
-          font-size: .9em;
+          font-size: .7em;
           font-weight: normal;
         }
       }

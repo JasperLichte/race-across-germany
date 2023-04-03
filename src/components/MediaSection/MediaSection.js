@@ -10,15 +10,12 @@ import KnownFromBanner from './KnownFromBanner/KnownFromBanner';
 
 
 function MediaSection() {
-  const onChange = (from, to) => {
-    window.dataLayer = window.dataLayer || [];
-  };
-
   return (
     <section className='MediaSection'>
         <div className='main'>
+          <h2>News</h2>
           <KnownFromBanner />
-          <Slide easing='ease-out' transitionDuration={800} onChange={onChange}>
+          <Slide easing='ease-out' transitionDuration={800}>
             <YoutubeSlide />
             <DieZweiteLuftSlide />
             <TageblattSlide />

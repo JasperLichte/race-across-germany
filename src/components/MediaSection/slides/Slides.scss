@@ -1,5 +1,5 @@
 .custom-slide {
-    background-color: var(--color-pink);
+    background-color: var(--color-black);
     height: 100%;
     color: var(--color-white);
     display: flex;
@@ -18,19 +18,18 @@
     }
     .image {
         flex: 1;
-        background: linear-gradient(90deg, var(--color-pink), var(--color-black));
 
         .logo {
             height: 100%;
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center center;
+            opacity: .1;
         }
     }
 
     .description {
         flex: 2;
-        background-color: var(--color-black);
         color: var(--color-white);
         padding: 1em 2em;
         display: flex;

@@ -58,7 +58,6 @@ function EventCountdown() {
               <span className='value'>{pad(seconds)}</span>
             </div>
           </div>
-          <p className='event-date'>({eventDate.toDateString()})</p>
         </div>
     </div>
   );

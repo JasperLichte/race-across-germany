@@ -4,6 +4,7 @@ function CharitySection() {
   return (
     <section className='CharitySection' id='charity'>
         <div className='main'>
+            <h2>Charity</h2>
             <div className='quote'>
                 <p>Mental strength is at least as important as physical fitness for success in ultracycling.</p>
                 <span>- Torsten Frank, 2018</span>

@@ -1,8 +1,7 @@
 .PartnerBanner {
-    margin: 2em 0 0 0;
-    background-color: var(--color-black);
+    margin: 0;
     width: 100vw;
-    min-height: 140px;
+    min-height: 100px;
     padding: 0 3em;
     display: flex;
     justify-content: space-around;
@@ -14,7 +13,7 @@
     }
 
     > * {
-        margin: 2em;
+        margin: 1em 2em;
     }
 
     &.no-animation {
@@ -43,7 +42,7 @@
 
     img {
         height:60px;
-        animation: highlight 7s ease 0s infinite forwards;
+        animation: highlight 6s ease 0s infinite forwards;
 
         @media screen and (max-width: 480px) {
             animation: none;
@@ -51,38 +50,33 @@
         }
 
         &.noack {
-            height: 65px;
+            height: 62px;
             animation-delay: 0s;
-        }
-
-        &.kickstart {
-            height: 45px;
-            animation-delay: 1s;
-        }
-
-        &.velopunkt {
-            height: 60px;
-            animation-delay: 2s;
         }
 
         &.sportimport {
             height: 37px;
+            animation-delay: 1s;
+        }
+
+        &.aerycs {
+            height: 43px;
+            animation-delay: 2s;
+        }
+
+        &.mucoff {
+            height: 35px;
             animation-delay: 3s;
         }
 
-        &.dfwi {
-            height: 40px;
+        &.maxplaner {
+            height: 48px;
             animation-delay: 4s;
         }
 
-        &.maxplaner {
-            height: 55px;
-            animation-delay: 5s;
-        }
-
         &.h1media {
-            height: 60px;
-            animation-delay: 6s;
+            height: 58px;
+            animation-delay: 5s;
         }
 
         @keyframes highlight {

@@ -17,16 +17,16 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
-    <RaceDescriptionSection />
-    <MediaSection />
-    <EventCountdown />
     <PartnerBanner />
+    <RaceDescriptionSection />
+    <EventCountdown />
+    <MediaSection />
     <AthleteSection />
     <TeamSection />
     <GoalSection />
     <CharitySection />
     <SupportSection />
     <Footer />
-    <PartnerBanner animation={false} iconSize='small' />
+    <PartnerBanner />
   </React.StrictMode>
 );
