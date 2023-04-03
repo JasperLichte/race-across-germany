@@ -41,7 +41,7 @@ h2 {
   margin-bottom: 1.5em;
   line-height: 1.2em;
 
-  &::after {
+  &:not(.no-border)::after {
     content: '';
     position: absolute;
     height: 2px;

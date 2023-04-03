@@ -39,10 +39,6 @@
                 background: radial-gradient(var(--color-pink), rgba(0, 0, 0, 0) 80%);
             }
 
-            &::after {
-                display: none;
-            }
-
             span {
                 position: absolute;
                 color: var(--color-white);

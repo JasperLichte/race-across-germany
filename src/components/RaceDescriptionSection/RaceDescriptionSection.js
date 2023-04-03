@@ -7,7 +7,7 @@ function RaceDescriptionSection() {
       <div className='main'>
         <img src={map} alt="Map" className='map'/>
         <div className='keywords'>
-          <h2>
+          <h2 className='no-border'>
             Race<br />Across<br />Germany
             
             <span>1100km</span>
