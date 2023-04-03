@@ -1,34 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.6326ba6a.css",
-    "main.js": "/static/js/main.7325e6d9.js",
+    "main.css": "/static/css/main.31880d7a.css",
+    "main.js": "/static/js/main.5ad105b6.js",
+    "static/media/map.png": "/static/media/map.c01b8394823e7ca8579b.png",
     "static/media/bg1.jpg": "/static/media/bg1.bebb447a6eb4bcc711cb.jpg",
-    "static/media/map.png": "/static/media/map.b45d756498824be0d68f.png",
     "static/media/deutscheDepressionsHilfe.png": "/static/media/deutscheDepressionsHilfe.938b748ce896e35754d2.png",
     "static/media/spotify.png": "/static/media/spotify.89d21c26dda0e7beff6a.png",
     "static/media/strava.png": "/static/media/strava.d4e226d2d949cc54539a.png",
     "static/media/JL_logo.png": "/static/media/JL_logo.8629cbb9dfb9882c3393.png",
     "static/media/instagram.png": "/static/media/instagram.6f7718f32219734b6638.png",
     "static/media/tageblatt.png": "/static/media/tageblatt.42d4ae646e1ba89cbb7c.png",
-    "static/media/velopunkt.png": "/static/media/velopunkt.dcdcc1c09fd1b0afa63d.png",
     "static/media/youtube.png": "/static/media/youtube.5e6e9f83af1cd03ef1ce.png",
     "static/media/mopo.webp": "/static/media/mopo.25e1adf4fafbeb3782c0.webp",
     "static/media/ndr.png": "/static/media/ndr.7dbecf49159096ab91a3.png",
     "static/media/email.png": "/static/media/email.344fdc35c1843879bab4.png",
     "static/media/noack-sport-support.png": "/static/media/noack-sport-support.3332e977827f08ca116b.png",
     "static/media/sport-import.svg": "/static/media/sport-import.0e3943ba3d30ba3f1c07e03f7bcb82f4.svg",
-    "static/media/kickstart-in-it.svg": "/static/media/kickstart-in-it.d7a31d65f9f347d66573f7691530fa94.svg",
     "static/media/tageblatt.svg": "/static/media/tageblatt.c86f4ee003b5a8975df9f3c3d17ef7c2.svg",
     "static/media/youtube.svg": "/static/media/youtube.60e42dc5b00b8120dea8239840cf3317.svg",
     "index.html": "/index.html",
-    "static/media/h1media.svg": "/static/media/h1media.012d1809adf7f351f3ba7b87ceb2ca72.svg",
-    "static/media/dfwi.svg": "/static/media/dfwi.856cf4de0af8bb61a2e38fa99e3daf02.svg",
     "static/media/spotify.svg": "/static/media/spotify.53a8fc1009a0c4269a67da84a90514ed.svg",
-    "main.6326ba6a.css.map": "/static/css/main.6326ba6a.css.map",
-    "main.7325e6d9.js.map": "/static/js/main.7325e6d9.js.map"
+    "main.31880d7a.css.map": "/static/css/main.31880d7a.css.map",
+    "main.5ad105b6.js.map": "/static/js/main.5ad105b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.6326ba6a.css",
-    "static/js/main.7325e6d9.js"
+    "static/css/main.31880d7a.css",
+    "static/js/main.5ad105b6.js"
   ]
 }
