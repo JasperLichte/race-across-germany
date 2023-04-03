@@ -27,10 +27,6 @@ function AthleteSection() {
                             <p>2nd place Hamburg-Berlin-Time-Trial</p>
                             <span>Hamburg, 2022</span>
                         </li>
-                        <li>
-                            <p>Hamburg - Salzburg unsupported in 3 days</p>
-                            <span>1,100km, 2022</span>
-                        </li>
                     </ul>
                 </div>
                 <div className='rowing'>
