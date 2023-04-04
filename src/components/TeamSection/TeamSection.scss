@@ -6,73 +6,115 @@
     }
 
     .cards {
-        margin: -.5em;
+        margin: -1em;
         display: flex;
         flex-wrap: wrap;
+
         > div {
             background-color: var(--color-black);
-            box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
             color: var(--color-white);
-            padding: 1em;
             display: flex;
-            flex-direction: column;
             flex-grow: 1;
-            margin: .5em;
-            width: calc((1 / 3) * 100% - 1em);
+            margin: 1em;
+            width: calc((1 / 2) * 100% - 2em);
             min-width: 300px;
 
-            &:first-of-type {
-                background-color: var(--color-pink);
-            }
-
-            @media screen and (max-width: 600px) {
-                margin-left: -.5em;
-                margin-right: -.5em;
-            }
-
-            p {
-                font-size: 1.2em;
-                font-weight: bold;
-                margin: 0;
-                margin-bottom: .5em;
-            }
-
-            span {
-                opacity: .75;
-                font-size: .85em;
-            }
-        }
-
-        .socials {
-            display: flex;
-            justify-content: flex-end;
-            margin-top: -.25em;
-            width: 100%;
-
-            a {
-                width: 16px;
-                height: 16px;
-                display: block;
-                margin-left: 1em;
+            .img {
+                height: 170px;
+                width: 170px;
                 background-position: center center;
                 background-size: contain;
                 background-repeat: no-repeat;
-                opacity: .9;
-                color: transparent;
-                user-select: none;
+                margin-right: 1.5em;
 
-                &.instagram {
-                    background-image: url(./logos/instagram.png);
+                @media screen and (max-width: 560px) {
+                    height: 120px;
+                    width: 120px;
                 }
 
-                &.mail {
-                    background-image: url(./logos/email.png);
-                    transform: scale(1.15);
+                &.jasper {
+                    background-image: url(./images/Jasper.png);
                 }
 
-                &.strava {
-                    background-image: url(./logos/strava.png);
-                    opacity: .8;
+                &.martin {
+                    background-image: url(./images/Martin.png);
+                }
+
+                &.phillip {
+                    background-image: url(./images/Phillip.png);
+                }
+
+                &.merle {
+                    background-image: url(./images/Merle.png);
+                }
+
+                &.mona {
+                    background-image: url(./images/Mona.png);
+                }
+
+                &.christian {
+                    background-image: url(./images/Christian.png);
+                }
+
+                &.johann {
+                    background-image: url(./images/Johann.png);
+                }
+
+                &.josephine {
+                    background-image: url(./images/Josephine.png);
+                }
+            }
+
+            .info {
+                position: relative;
+                flex: 1;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                p {
+                    font-size: 1.3em;
+                    font-weight: bold;
+                    margin: 0;
+                }
+    
+                span {
+                    opacity: .6;
+                    font-size: .85em;
+                }
+
+                .socials {
+                    display: flex;
+                    position: absolute;
+                    bottom: 0;
+        
+                    a {
+                        width: 16px;
+                        height: 16px;
+                        display: block;
+                        margin-right: 1em;
+                        background-position: center center;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        opacity: .9;
+                        color: transparent;
+                        user-select: none;
+        
+                        &.instagram {
+                            background-image: url(./logos/instagram.png);
+                        }
+        
+                        &.mail {
+                            background-image: url(./logos/email.png);
+                            transform: scale(1.15);
+                        }
+        
+                        &.strava {
+                            background-image: url(./logos/strava.png);
+                            opacity: .8;
+                        }
+                    }
                 }
             }
         }

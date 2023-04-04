@@ -21,6 +21,16 @@ body {
   font-weight: lighter;
 }
 
+#root {
+  width: 100%;
+  overflow-x: hidden;
+
+  & > * {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
 .main {
   max-width: calc(1280px + 2em);
   margin: 0 auto;
