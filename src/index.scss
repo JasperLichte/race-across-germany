@@ -36,9 +36,9 @@ body {
 
 h2 {
   font-size: 2.2em;
-  font-weight: lighter;
+  font-weight: light;
   position: relative;
-  margin-bottom: 1.5em;
+  margin-bottom: .5em;
   line-height: 1.2em;
 
   &:not(.no-border)::after {
@@ -63,6 +63,7 @@ p {
     background-color: var(--color-pink);
     color: var(--color-white);
     font-size: .9em;
+    font-weight: normal;
     padding: .125em .3em;
     opacity: .85;
 
