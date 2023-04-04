@@ -1,12 +1,4 @@
 import './TeamSection.scss';
-import jasper from './images/Jasper.png';
-import martin from './images/Martin.png';
-import phillip from './images/Phillip.png';
-import merle from './images/Merle.png';
-import mona from './images/Mona.png';
-import christian from './images/Christian.png';
-import johann from './images/Johann.png';
-import josephine from './images/Josephine.png';
 
 function TeamSection() {
   return (
