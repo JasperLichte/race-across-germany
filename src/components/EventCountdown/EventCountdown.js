@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './EventCountdown.scss';
 
-const eventDate = new Date('2023/07/07 10:00');
+const eventDate = new Date('2023/07/07 08:00');
 
 function pad(number) {
   var result = "" + number;
