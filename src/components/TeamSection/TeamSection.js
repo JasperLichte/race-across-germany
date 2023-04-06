@@ -24,6 +24,7 @@ function TeamSection() {
                 <div className='img jasper'/>
                 <div className='info'>
                     <p>Jasper Lichte</p>
+                    <br/>
                     <span>Athlete</span>
                     <div className='socials'>
                         <a className='instagram' href="https://www.instagram.com/jasper.cycling">.</a>
@@ -36,6 +37,7 @@ function TeamSection() {
                 <div className='img martin'/>
                 <div className='info'>
                     <p>Martin Duscha</p>
+                    <br/>
                     <span>Team manager & Organizer</span>
                     <div className='socials'>
                         <a className='instagram' href="https://www.instagram.com/maaadinhh">.</a>
@@ -48,6 +50,7 @@ function TeamSection() {
                 <div className='img phillip'/>
                 <div className='info'>
                     <p>Phillip Wieckowski</p>
+                    <br/>
                     <span>Bike Mechanic</span>
                     <div className='socials'>
                         <a className='instagram' href="https://www.instagram.com/phillip_auf_bike">.</a>
@@ -58,6 +61,7 @@ function TeamSection() {
                 <div className='img merle'/>
                 <div className='info'>
                     <p>Merle Neitzel</p>
+                    <br/>
                     <span>Physiotherapist</span>
                     <div className='socials'>
                         <a className='instagram' href="https://www.instagram.com/merle_n_">.</a>
@@ -68,6 +72,7 @@ function TeamSection() {
                 <div className='img mona'/>
                 <div className='info'>
                     <p>Mona Flathmann</p>
+                    <br/>
                     <span>Motivation & Navigation</span>
                     <div className='socials'>
                         <a className='instagram' href="https://www.instagram.com/mona_flathmann">.</a>
@@ -79,6 +84,7 @@ function TeamSection() {
                 <div className='img christian'/>
                 <div className='info'>
                     <p>Christian Walter</p>
+                    <br/>
                     <span>Navigation & Nutrition</span>
                     <div className='socials'>
                         <a className='instagram' href="https://www.instagram.com/christian.cycling">.</a>
@@ -90,6 +96,7 @@ function TeamSection() {
                 <div className='img johann'/>
                 <div className='info'>
                     <p>Johann Schäning</p>
+                    <br/>
                     <span>Performance & Nutrition</span>
                     <div className='socials'>
                         <a className='instagram' href="https://www.instagram.com/johannschaning">.</a>
@@ -101,6 +108,7 @@ function TeamSection() {
                 <div className='img josephine'/>
                 <div className='info'>
                     <p>Josephine Noack</p>
+                    <br/>
                     <span>Head Coach & Sports Scientist</span>
                     <div className='socials'>
                         <a className='instagram' href="https://www.instagram.com/josephine.noack">.</a>

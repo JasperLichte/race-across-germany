@@ -26,6 +26,8 @@
                 background-size: contain;
                 background-repeat: no-repeat;
                 margin-right: 1.5em;
+                position: relative;
+                transition: transform .4s ease;
 
                 @media screen and (max-width: 560px) {
                     height: 120px;
@@ -69,14 +71,29 @@
                 position: relative;
                 flex: 1;
                 height: 100%;
-                display: flex;
                 justify-content: center;
                 flex-direction: column;
+                padding-top: 3em;
 
                 p {
                     font-size: 1.3em;
                     font-weight: bold;
                     margin: 0;
+                    position: relative;
+                    display: inline;
+                    flex-grow: 0;
+                    transition: font-size .2s ease;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        height: 2px;
+                        width: 0;
+                        background-color: var(--color-pink);
+                        left: 0;
+                        top: 1em;
+                        transition: width .4s ease .2s;
+                    }
                 }
     
                 span {
@@ -114,6 +131,20 @@
                             background-image: url(./logos/strava.png);
                             opacity: .8;
                         }
+                    }
+                }
+            }
+
+            &:hover {
+                .img {
+                    transform: scale(1.2);
+                }
+
+                .info p {
+                    font-size: 1.4em;
+
+                    &::after {
+                        width: 100%;
                     }
                 }
             }
