@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.95e96fa7.css",
-    "main.js": "/static/js/main.8fecd6e1.js",
+    "main.css": "/static/css/main.ca0bc857.css",
+    "main.js": "/static/js/main.f47103d7.js",
     "static/media/map.png": "/static/media/map.c01b8394823e7ca8579b.png",
     "static/media/Mona.png": "/static/media/Mona.6ba48a2b2023bfa1ab07.png",
     "static/media/Merle.png": "/static/media/Merle.cdf19ee2912f4b5c4079.png",
@@ -10,6 +10,7 @@
     "static/media/Johann.png": "/static/media/Johann.d76854ce79a8aa1601df.png",
     "static/media/Jasper.png": "/static/media/Jasper.3c3ae323599eb479db50.png",
     "static/media/Martin.png": "/static/media/Martin.9e90e5560cf013c5853f.png",
+    "static/media/jasper.png": "/static/media/jasper.75e2909211338e552706.png",
     "static/media/bg1.jpg": "/static/media/bg1.bebb447a6eb4bcc711cb.jpg",
     "static/media/Phillip.png": "/static/media/Phillip.7eefcc814047fdbf57e0.png",
     "static/media/deutscheDepressionsHilfe.png": "/static/media/deutscheDepressionsHilfe.938b748ce896e35754d2.png",
@@ -28,11 +29,11 @@
     "static/media/youtube.svg": "/static/media/youtube.60e42dc5b00b8120dea8239840cf3317.svg",
     "index.html": "/index.html",
     "static/media/spotify.svg": "/static/media/spotify.53a8fc1009a0c4269a67da84a90514ed.svg",
-    "main.95e96fa7.css.map": "/static/css/main.95e96fa7.css.map",
-    "main.8fecd6e1.js.map": "/static/js/main.8fecd6e1.js.map"
+    "main.ca0bc857.css.map": "/static/css/main.ca0bc857.css.map",
+    "main.f47103d7.js.map": "/static/js/main.f47103d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.95e96fa7.css",
-    "static/js/main.8fecd6e1.js"
+    "static/css/main.ca0bc857.css",
+    "static/js/main.f47103d7.js"
   ]
 }
