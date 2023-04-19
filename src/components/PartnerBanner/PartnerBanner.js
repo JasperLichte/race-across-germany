@@ -13,8 +13,8 @@ function PartnerBanner({animation, iconSize}) {
         <a href='https://noacksportsupport.de/'><img src={noack} className='noack' alt='Noack Sport Support' /></a>
         <a href='https://www.sportimport.de/'><img src={sportimport} className='sportimport' alt='Sport Import' /></a>
         <a href='https://aerycs.de/'><img src={aerycs} className='aerycs' alt='Aerycs' /></a>
-        <a href='https://muc-off.com/'><img src={mucoff} className='mucoff' alt='Muc-Off' /></a>
         <a href='https://www.webxells.com/'><img src={webxells} className='webxells' alt='webXells' /></a>
+        <a href='https://muc-off.com/'><img src={mucoff} className='mucoff' alt='Muc-Off' /></a>
         <a href='https://www.maxplaner.com/'><img src={maxplaner} className='maxplaner' alt='Max Planer' /></a>
         <a href='http://www.h1e.eu/'><img src={h1media} className='h1media' alt='H1Media' /></a>
     </div>
