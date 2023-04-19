@@ -42,7 +42,7 @@
 
     img {
         height:60px;
-        animation: highlight 6s ease 0s infinite forwards;
+        animation: highlight 7s ease 0s infinite forwards;
 
         @media screen and (max-width: 480px) {
             animation: none;
@@ -50,12 +50,12 @@
         }
 
         &.noack {
-            height: 62px;
+            height: 58px;
             animation-delay: 0s;
         }
 
         &.sportimport {
-            height: 37px;
+            height: 34px;
             animation-delay: 1s;
         }
 
@@ -69,14 +69,19 @@
             animation-delay: 3s;
         }
 
-        &.maxplaner {
-            height: 48px;
+        &.webxells {
+            height: 50px;
             animation-delay: 4s;
         }
 
-        &.h1media {
-            height: 58px;
+        &.maxplaner {
+            height: 42px;
             animation-delay: 5s;
+        }
+
+        &.h1media {
+            height: 52px;
+            animation-delay: 6s;
         }
 
         @keyframes highlight {
