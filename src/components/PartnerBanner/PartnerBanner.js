@@ -3,7 +3,7 @@ import noack from './logos/noack-sport-support.png';
 import maxplaner from './logos/maxplaner.png';
 import sportimport from './logos/sport-import.svg';
 import h1media from './logos/h1media.png'
-import aerycs from './logos/aerycs.png';
+import aerycs from './logos/aerycs.svg';
 import mucoff from './logos/mucoff.png';
 import webxells from './logos/webxells.svg';
 
