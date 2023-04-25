@@ -1,0 +1,53 @@
+.PrideFlag {
+    height: 8px;
+    display: flex;
+
+    span {
+        height: 100%;
+        flex: 1;
+
+        &:nth-of-type(1) {
+            background-color: #ffffff;
+        }
+
+        &:nth-of-type(2) {
+            background-color: #ffafc7;
+        }
+
+        &:nth-of-type(3) {
+            background-color: #73d7ee;
+        }
+
+        &:nth-of-type(4) {
+            background-color: #613915;
+        }
+
+        &:nth-of-type(5) {
+            background-color: #000000;
+        }
+
+        &:nth-of-type(6) {
+            background-color: #e50000;
+        }
+
+        &:nth-of-type(7) {
+            background-color: #ff8d00;
+        }
+
+        &:nth-of-type(8) {
+            background-color: #ffee00;
+        }
+
+        &:nth-of-type(9) {
+            background-color: #028121;
+        }
+
+        &:nth-of-type(10) {
+            background-color: #004cff;
+        }
+
+        &:nth-of-type(11) {
+            background-color: #760088;
+        }
+    }
+}

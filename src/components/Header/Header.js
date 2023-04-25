@@ -1,5 +1,6 @@
 import './Header.scss';
 import Nav from './nav/Nav';
+import PrideFlag from '../PrideFlag/PrideFlag';
 
 function Header() {
   return (
@@ -10,6 +11,7 @@ function Header() {
         <h1>Race Across Germany <span>2023</span></h1>
         <h2 className='no-border'>Team Lichte</h2>
       </div>
+      <PrideFlag />
     </header>
   );
 }

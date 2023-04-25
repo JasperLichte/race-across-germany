@@ -98,4 +98,13 @@
         }
       }
     }
+
+    .PrideFlag {
+      position: absolute;
+      height: calc(100% - 2 * var(--margin-top));
+      width: calc(100vw / 180 + 2px);
+      flex-direction: column;
+      left: var(--margin-left);
+      top: var(--margin-top)
+    }
 }

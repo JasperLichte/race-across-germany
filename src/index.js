@@ -12,6 +12,7 @@ import SupportSection from './components/SupportSection/SupportSection';
 import Footer from './components/Footer/Footer';
 import EventCountdown from './components/EventCountdown/EventCountdown';
 import MediaSection from './components/MediaSection/MediaSection';
+import PrideFlag from './components/PrideFlag/PrideFlag';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,5 +29,6 @@ root.render(
     <SupportSection />
     <Footer />
     <PartnerBanner />
+    <PrideFlag />
   </React.StrictMode>
 );
