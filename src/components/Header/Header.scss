@@ -105,6 +105,14 @@
       width: min(calc(100vw / 180 + 2px), 8px);
       flex-direction: column;
       left: var(--margin-left);
-      top: var(--margin-top)
+      top: var(--margin-top);
+
+      @media screen and (max-width: 720px) {
+        height: 6px;
+        width: calc(100% - 2 * var(--margin-left));
+        flex-direction: row;
+        top: unset;
+        bottom: var(--margin-top);
+      }
     }
 }
