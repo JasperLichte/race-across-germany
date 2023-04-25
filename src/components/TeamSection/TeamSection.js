@@ -14,7 +14,7 @@ const teamMembers = [
     {
         short: 'martin',
         name: 'Martin Duscha',
-        title: 'Team manager & Organizer',
+        title: 'Team Manager & Organizer',
         socials: {
             instagram: 'https://www.instagram.com/maaadinhh',
             strava: 'https://www.strava.com/athletes/21472500',
