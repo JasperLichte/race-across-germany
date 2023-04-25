@@ -102,7 +102,7 @@
     .PrideFlag {
       position: absolute;
       height: calc(100% - 2 * var(--margin-top));
-      width: min(calc(100vw / 180 + 2px), 8px);
+      width: 6px;
       flex-direction: column;
       left: var(--margin-left);
       top: var(--margin-top);
