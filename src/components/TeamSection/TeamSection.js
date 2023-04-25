@@ -1,5 +1,80 @@
 import './TeamSection.scss';
 
+const teamMembers = [
+    {
+        short: 'jasper',
+        name: 'Jasper Lichte',
+        title: 'Athlete',
+        socials: {
+            instagram: 'https://www.instagram.com/jasper.cycling',
+            strava: 'https://www.strava.com/athletes/40292803',
+            mail: 'mailto:jasper@lichte.info',
+        }
+    },
+    {
+        short: 'martin',
+        name: 'Martin Duscha',
+        title: 'Team manager & Organizer',
+        socials: {
+            instagram: 'https://www.instagram.com/maaadinhh',
+            strava: 'https://www.strava.com/athletes/21472500',
+            mail: 'mailto:martin@velopunkt.com',
+        }
+    },
+    {
+        short: 'phillip',
+        name: 'Phillip Wieckowski',
+        title: 'Bike Mechanic',
+        socials: {
+            instagram: 'https://www.instagram.com/phillip_auf_bike',
+        }
+    },
+    {
+        short: 'merle',
+        name: 'Merle Neitzel',
+        title: 'Physiotherapist',
+        socials: {
+            instagram: 'https://www.instagram.com/merle_n_',
+        }
+    },
+    {
+        short: 'mona',
+        name: 'Mona Flathmann',
+        title: 'Motivation & Navigation',
+        socials: {
+            instagram: 'https://www.instagram.com/mona_flathmann',
+            strava: 'https://www.strava.com/athletes/52675975',
+        }
+    },
+    {
+        short: 'christian',
+        name: 'Christian Walter',
+        title: 'Navigation & Nutrition',
+        socials: {
+            instagram: 'https://www.instagram.com/christian.cycling',
+            strava: 'https://www.strava.com/athletes/53339058',
+        }
+    },
+    {
+        short: 'johann',
+        name: 'Johann Schäning',
+        title: 'Performance & Nutrition',
+        socials: {
+            instagram: 'https://www.instagram.com/johannschaning',
+            strava: 'https://www.strava.com/athletes/58115319',
+        }
+    },
+    {
+        short: 'josephine',
+        name: 'Josephine Noack',
+        title: 'Head Coach & Sports Scientist',
+        socials: {
+            instagram: 'https://www.instagram.com/josephine.noack',
+            strava: 'https://www.strava.com/athletes/24473648',
+        }
+    },
+];
+
 function TeamSection() {
   return (
     <section className='TeamSection' id='the-team'>
@@ -20,102 +95,19 @@ function TeamSection() {
             We are excited to embark on this journey and grateful for the opportunity to compete in this prestigious event!
         </p>
         <div className='cards'>
-            <div>
-                <div className='img jasper'/>
+            {teamMembers.map(m => (<div className={`card ${m.short}`}>
+                <div className='img' />
                 <div className='info'>
-                    <p>Jasper Lichte</p>
+                    <p>{m.name}</p>
                     <br/>
-                    <span>Athlete</span>
+                    <span>{m.title}</span>
                     <div className='socials'>
-                        <a className='instagram' href="https://www.instagram.com/jasper.cycling">.</a>
-                        <a className='strava' href="https://www.strava.com/athletes/40292803">.</a>
-                        <a className='mail' href="mailto:jasper@lichte.info">.</a>
+                        {Object.keys(m.socials).map(k => (
+                            <a className={k} href={m.socials[k]}>.</a>
+                        ))}
                     </div>
                 </div>
-            </div>
-            <div>
-                <div className='img martin'/>
-                <div className='info'>
-                    <p>Martin Duscha</p>
-                    <br/>
-                    <span>Team manager & Organizer</span>
-                    <div className='socials'>
-                        <a className='instagram' href="https://www.instagram.com/maaadinhh">.</a>
-                        <a className='strava' href="https://www.strava.com/athletes/21472500">.</a>
-                        <a className='mail' href="mailto:martin@velopunkt.com">.</a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div className='img phillip'/>
-                <div className='info'>
-                    <p>Phillip Wieckowski</p>
-                    <br/>
-                    <span>Bike Mechanic</span>
-                    <div className='socials'>
-                        <a className='instagram' href="https://www.instagram.com/phillip_auf_bike">.</a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div className='img merle'/>
-                <div className='info'>
-                    <p>Merle Neitzel</p>
-                    <br/>
-                    <span>Physiotherapist</span>
-                    <div className='socials'>
-                        <a className='instagram' href="https://www.instagram.com/merle_n_">.</a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div className='img mona'/>
-                <div className='info'>
-                    <p>Mona Flathmann</p>
-                    <br/>
-                    <span>Motivation & Navigation</span>
-                    <div className='socials'>
-                        <a className='instagram' href="https://www.instagram.com/mona_flathmann">.</a>
-                        <a className='strava' href="https://www.strava.com/athletes/52675975">.</a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div className='img christian'/>
-                <div className='info'>
-                    <p>Christian Walter</p>
-                    <br/>
-                    <span>Navigation & Nutrition</span>
-                    <div className='socials'>
-                        <a className='instagram' href="https://www.instagram.com/christian.cycling">.</a>
-                        <a className='strava' href="https://www.strava.com/athletes/53339058">.</a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div className='img johann'/>
-                <div className='info'>
-                    <p>Johann Schäning</p>
-                    <br/>
-                    <span>Performance & Nutrition</span>
-                    <div className='socials'>
-                        <a className='instagram' href="https://www.instagram.com/johannschaning">.</a>
-                        <a className='strava' href="https://www.strava.com/athletes/58115319">.</a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div className='img josephine'/>
-                <div className='info'>
-                    <p>Josephine Noack</p>
-                    <br/>
-                    <span>Head Coach & Sports Scientist</span>
-                    <div className='socials'>
-                        <a className='instagram' href="https://www.instagram.com/josephine.noack">.</a>
-                        <a className='strava' href="https://www.strava.com/athletes/24473648">.</a>
-                    </div>
-                </div>
-            </div>
+            </div>))}
         </div>
       </div>
     </section>

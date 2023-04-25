@@ -10,7 +10,7 @@
         display: flex;
         flex-wrap: wrap;
 
-        > div {
+        .card {
             background-color: var(--color-black);
             color: var(--color-white);
             display: flex;
@@ -34,35 +34,35 @@
                     width: 120px;
                 }
 
-                &.jasper {
+                &:is(.jasper .img) {
                     background-image: url(./images/Jasper.png);
                 }
 
-                &.martin {
+                &:is(.martin .img) {
                     background-image: url(./images/Martin.png);
                 }
 
-                &.phillip {
+                &:is(.phillip .img) {
                     background-image: url(./images/Phillip.png);
                 }
 
-                &.merle {
+                &:is(.merle .img) {
                     background-image: url(./images/Merle.png);
                 }
 
-                &.mona {
+                &:is(.mona .img) {
                     background-image: url(./images/Mona.png);
                 }
 
-                &.christian {
+                &:is(.christian .img) {
                     background-image: url(./images/Christian.png);
                 }
 
-                &.johann {
+                &:is(.johann .img) {
                     background-image: url(./images/Johann.png);
                 }
 
-                &.josephine {
+                &:is(.josephine .img) {
                     background-image: url(./images/Josephine.png);
                 }
             }
