@@ -1,6 +1,5 @@
 import './Header.scss';
 import Nav from './nav/Nav';
-import PrideFlag from '../PrideFlag/PrideFlag';
 
 function Header() {
   return (
