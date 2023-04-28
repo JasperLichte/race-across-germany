@@ -1,6 +1,6 @@
 .Header {
     position: relative;
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 0px);
     background-image: url(./bg1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -96,23 +96,6 @@
           text-align: center;
           font-size: 1.75em;
         }
-      }
-    }
-
-    .PrideFlag {
-      position: absolute;
-      height: calc(100% - 2 * var(--margin-top));
-      width: 6px;
-      flex-direction: column;
-      left: var(--margin-left);
-      top: var(--margin-top);
-
-      @media screen and (max-width: 720px) {
-        height: 6px;
-        width: calc(100% - 2 * var(--margin-left));
-        flex-direction: row;
-        top: unset;
-        bottom: var(--margin-top);
       }
     }
 }
