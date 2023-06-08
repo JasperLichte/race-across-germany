@@ -42,7 +42,7 @@
 
     img {
         height:60px;
-        animation: highlight 7s ease 0s infinite forwards;
+        animation: highlight 8s ease 0s infinite forwards;
 
         @media screen and (max-width: 480px) {
             animation: none;
@@ -79,9 +79,14 @@
             animation-delay: 5s;
         }
 
+        &.maxplaner {
+            height: 42px;
+            animation-delay: 6s;
+        }
+
         &.h1media {
             height: 48px;
-            animation-delay: 6s;
+            animation-delay: 7s;
         }
 
         @keyframes highlight {
