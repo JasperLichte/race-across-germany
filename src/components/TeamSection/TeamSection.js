@@ -103,7 +103,7 @@ function TeamSection() {
                     <span>{m.title}</span>
                     <div className='socials'>
                         {Object.keys(m.socials).map(k => (
-                            <a className={k} href={m.socials[k]}>.</a>
+                            <a className={k} href={m.socials[k]} target='_blank' rel='noreferrer'>.</a>
                         ))}
                     </div>
                 </div>
