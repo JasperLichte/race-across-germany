@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react';
 import './EventCountdown.scss';
 
-const eventDate = new Date('2023/07/07 08:00');
-
 function pad(number) {
   var result = "" + number;
   if (result.length < 2) {
@@ -12,7 +10,7 @@ function pad(number) {
   return result;
 }
 
-function EventCountdown() {
+function EventCountdown({eventDate}) {
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
@@ -34,7 +32,7 @@ function EventCountdown() {
       setMinutes(m);
       setSeconds(s);
     }, 1000);
-  }, [])
+  }, [eventDate])
 
 
   return (

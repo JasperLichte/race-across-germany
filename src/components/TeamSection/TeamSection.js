@@ -95,7 +95,7 @@ function TeamSection() {
             We are excited to embark on this journey and grateful for the opportunity to compete in this prestigious event!
         </p>
         <div className='cards'>
-            {teamMembers.map(m => (<div className={`card ${m.short}`}>
+            {teamMembers.map(m => (<div key={m.short} className={`card ${m.short}`}>
                 <div className='img' />
                 <div className='info'>
                     <p>{m.name}</p>
@@ -103,7 +103,7 @@ function TeamSection() {
                     <span>{m.title}</span>
                     <div className='socials'>
                         {Object.keys(m.socials).map(k => (
-                            <a className={k} href={m.socials[k]} target='_blank' rel='noreferrer'>.</a>
+                            <a key={k} className={k} href={m.socials[k]} target='_blank' rel='noreferrer'>.</a>
                         ))}
                     </div>
                 </div>
