@@ -67,4 +67,35 @@
             }
         }
     }
+
+    .donate-now {
+        &__wrapper {
+            padding-top: 1em;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+            a, a:focus, a:visited {
+                background-color: rgba(255, 255, 255, .075);
+                border: 1px solid var(--color-pink);
+                color: var(--color-pink);
+                text-decoration: none;
+                padding: .4em .75em;
+                transition: all .2s ease;
+                font-weight: bold;
+                font-size: 2em;
+
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+
+            p {
+                opacity: .6;
+                font-size: .7em;
+                margin-top: .2em;
+            }
+        }
+    }
 }

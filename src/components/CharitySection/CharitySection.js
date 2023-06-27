@@ -23,6 +23,10 @@ function CharitySection() {
                 </p>
                 <div className='depressionshilfe_logo'></div>
             </div>
+            <div className='donate-now__wrapper'>
+                <a href="https://www.gofundme.com/f/race-across-germany-deutsche-depressionshilfe" target='_blank' rel='noreferrer'>Donate now!</a>
+                <p>100% of your donations go directly to the Deutsche Depressionshilfe.</p>
+            </div>
         </div>
     </section>
   );
