@@ -14,14 +14,29 @@ import PrideFlag from './PrideFlag/PrideFlag';
 
 const eventDate = new Date('2023/07/07 08:44');
 
-function App() {
+function App({location}) {
     const [ms, setMs] = useState(1);
 
     useEffect(() => {
         setInterval(() => {
             setMs(eventDate - new Date());
         }, 1000);
-    }, [])
+    }, []);
+
+    
+    useEffect(
+        () => {
+            const element = document.getElementById(location.hash.replace("#", ""));
+
+            setTimeout(() => {
+                window.scrollTo({
+                behavior: element ? "smooth" : "auto",
+                top: element ? element.offsetTop : 0
+                });
+            }, 100);
+        },
+        [location]
+    );
 
     return (
         <>
