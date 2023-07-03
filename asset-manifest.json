@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9fc6d5d9.css",
-    "main.js": "/static/js/main.1ed40bb8.js",
+    "main.css": "/static/css/main.6a11a57d.css",
+    "main.js": "/static/js/main.1db6d30a.js",
     "static/media/map.png": "/static/media/map.c01b8394823e7ca8579b.png",
     "static/media/Mona.png": "/static/media/Mona.6ba48a2b2023bfa1ab07.png",
     "static/media/Merle.png": "/static/media/Merle.cdf19ee2912f4b5c4079.png",
@@ -14,6 +14,7 @@
     "static/media/bg1.jpg": "/static/media/bg1.bebb447a6eb4bcc711cb.jpg",
     "static/media/Phillip.png": "/static/media/Phillip.7eefcc814047fdbf57e0.png",
     "static/media/deutscheDepressionsHilfe.png": "/static/media/deutscheDepressionsHilfe.938b748ce896e35754d2.png",
+    "static/media/ndr.png": "/static/media/ndr.7dbecf49159096ab91a3.png",
     "static/media/spotify.png": "/static/media/spotify.89d21c26dda0e7beff6a.png",
     "static/media/strava.png": "/static/media/strava.d4e226d2d949cc54539a.png",
     "static/media/JL_logo.png": "/static/media/JL_logo.8629cbb9dfb9882c3393.png",
@@ -22,7 +23,6 @@
     "static/media/tageblatt.png": "/static/media/tageblatt.42d4ae646e1ba89cbb7c.png",
     "static/media/youtube.png": "/static/media/youtube.5e6e9f83af1cd03ef1ce.png",
     "static/media/mopo.webp": "/static/media/mopo.25e1adf4fafbeb3782c0.webp",
-    "static/media/ndr.png": "/static/media/ndr.7dbecf49159096ab91a3.png",
     "static/media/email.png": "/static/media/email.344fdc35c1843879bab4.png",
     "static/media/noack-sport-support.png": "/static/media/noack-sport-support.3332e977827f08ca116b.png",
     "static/media/sport-import.svg": "/static/media/sport-import.0e3943ba3d30ba3f1c07e03f7bcb82f4.svg",
@@ -32,11 +32,11 @@
     "static/media/youtube.svg": "/static/media/youtube.60e42dc5b00b8120dea8239840cf3317.svg",
     "index.html": "/index.html",
     "static/media/spotify.svg": "/static/media/spotify.53a8fc1009a0c4269a67da84a90514ed.svg",
-    "main.9fc6d5d9.css.map": "/static/css/main.9fc6d5d9.css.map",
-    "main.1ed40bb8.js.map": "/static/js/main.1ed40bb8.js.map"
+    "main.6a11a57d.css.map": "/static/css/main.6a11a57d.css.map",
+    "main.1db6d30a.js.map": "/static/js/main.1db6d30a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fc6d5d9.css",
-    "static/js/main.1ed40bb8.js"
+    "static/css/main.6a11a57d.css",
+    "static/js/main.1db6d30a.js"
   ]
 }
