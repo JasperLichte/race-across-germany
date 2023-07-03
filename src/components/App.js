@@ -11,6 +11,7 @@ import Footer from './Footer/Footer';
 import EventCountdown from './EventCountdown/EventCountdown';
 import MediaSection from './MediaSection/MediaSection';
 import PrideFlag from './PrideFlag/PrideFlag';
+import UsefulLinksSection from './UsefulLinksSection/UsefulLinksSection';
 
 const eventDate = new Date('2023/07/07 08:44');
 
@@ -43,6 +44,7 @@ function App({location}) {
             <Header />
             <PrideFlag />
             <PartnerBanner />
+            <UsefulLinksSection />
             <RaceDescriptionSection />
             {ms > 0 && <EventCountdown eventDate={eventDate} msLeft={ms} />}
             <MediaSection />
