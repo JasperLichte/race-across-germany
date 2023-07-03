@@ -1,0 +1,10 @@
+.NDRSlide {
+    .image {
+        transform: scale(1);
+        .logo {
+            background-image: url(./ndr.png);
+            opacity: .15;
+            filter: grayscale(100%) brightness(500%);
+        }
+    }
+}

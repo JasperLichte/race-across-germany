@@ -7,6 +7,7 @@ import TageblattSlide from './slides/Tageblatt/TageblattSlide';
 import MoPoSlide from './slides/MoPo/MoPoSlide';
 import YoutubeSlide from './slides/Youtube/YoutubeSlide';
 import KnownFromBanner from './KnownFromBanner/KnownFromBanner';
+import NDRSlide from './slides/NDR/NDRSlide';
 
 
 function MediaSection() {
@@ -16,6 +17,7 @@ function MediaSection() {
           <h2>News</h2>
           <KnownFromBanner />
           <Slide easing='ease-out' transitionDuration={800}>
+            <NDRSlide />
             <YoutubeSlide />
             <DieZweiteLuftSlide />
             <TageblattSlide />
