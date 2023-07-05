@@ -16,7 +16,7 @@ function NDRSlide() {
                     We extend our gratitude to the <strong>NDR</strong> for their support and for sharing our exhilarating journey with a wide audience.
                 </p>
                 <div className='ctas'>
-                    <a href="https://www.ndr.de/nachrichten/niedersachsen/lueneburg_heide_unterelbe/1100-Kilometer-Jasper-Lichte-startet-beim-Race-Across-Germany,raceacrossgermany100.html" target="_blank" rel="noreferrer">Read online</a>
+                    <a href="https://www.ndr.de/fernsehen/sendungen/hallo_niedersachsen/Race-Across-Germany-1100-Kilometer-in-unter-37-Stunden,hallonds81318.html" target="_blank" rel="noreferrer">Watch online</a>
                 </div>
             </div>
         </div>
